@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "udemy-plus/product-list",
+  "title": "Product list",
+  "category": "text",
+  "description": "Adds a list of products of certain category",
+  "textdomain": "udemy-plus",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "category"
+    },
+    "count": {
+      "type": "number",
+      "default": 3
+    },
+    "categories": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css"
+}

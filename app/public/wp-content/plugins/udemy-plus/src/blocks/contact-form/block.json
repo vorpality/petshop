@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+    "apiVersion": 2,
+    "name": "udemy-plus/contact-form",
+    "title": "Contact form",
+    "category": "text",
+    "description": "Adds a contact form",
+    "textdomain": "udemy-plus",
+    "attributes": {},
+    "editorScript": "file:./index.js",
+    "style": "file:./index.css"
+  }

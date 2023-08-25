@@ -1,0 +1,27 @@
+.editor-styles-wrapper .wp-block-udemy-plus-category-tree {
+  display: block;
+  background-color: rgb(243 244 246);
+  text-align: center;
+  padding: 2rem;
+  border: 3px solid black;
+ 
+}
+
+.wp-block-udemy-plus-category-tree{
+font-size:large;
+font-weight:bold;
+padding-left:6rem;
+}
+.wp-block-udemy-plus-category-tree .children{
+  padding-left:.7rem;
+  padding-top:.7rem;
+  padding-bottom:.2rem;
+
+  font-size: medium;
+  font-weight: normal;
+}
+
+.wp-block-udemy-plus-category-tree  a:hover{
+  text-decoration: underline ;
+  color: #7b8b4c;
+}

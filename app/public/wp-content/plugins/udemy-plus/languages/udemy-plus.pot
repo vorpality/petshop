@@ -1,0 +1,500 @@
+# Copyright (C) 2023 Udemy
+# This file is distributed under the same license as the Udemy Plus plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Udemy Plus 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/udemy-plus\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-30T10:56:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: udemy-plus\n"
+
+#. Plugin Name of the plugin
+msgid "Udemy Plus"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://udemy.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "A plugin for adding blocks to a theme"
+msgstr ""
+
+#. Author of the plugin
+msgid "Udemy"
+msgstr ""
+
+#: includes/activate.php:6
+msgid "You must update wordpress to use this plugin"
+msgstr ""
+
+#: includes/admin/meta-boxes/availability.php:10
+msgid "Available"
+msgstr ""
+
+#: includes/admin/meta-boxes/availability.php:13
+msgid "Not Available"
+msgstr ""
+
+#: includes/admin/meta-boxes/availability.php:14
+msgid "The product's availability"
+msgstr ""
+
+#: includes/admin/meta-boxes/price-box.php:8
+msgid "Price"
+msgstr ""
+
+#: includes/admin/meta-boxes/price-box.php:17
+msgid "The product's price"
+msgstr ""
+
+#: includes/blocks/search-form.php:13
+#: includes/blocks/search-form.php:18
+#: includes/blocks/search-form.php:23
+msgid "Search"
+msgstr ""
+
+#: includes/product-post-type.php:6
+msgctxt "Post type general name"
+msgid "Products"
+msgstr ""
+
+#: includes/product-post-type.php:7
+msgctxt "Post type singular name"
+msgid "Product"
+msgstr ""
+
+#: includes/product-post-type.php:8
+msgctxt "Admin Menu text"
+msgid "Products"
+msgstr ""
+
+#: includes/product-post-type.php:9
+msgctxt "Add New on Toolbar"
+msgid "Product"
+msgstr ""
+
+#: includes/product-post-type.php:10
+msgid "Add New"
+msgstr ""
+
+#: includes/product-post-type.php:11
+msgid "Add New Product"
+msgstr ""
+
+#: includes/product-post-type.php:12
+msgid "New Product"
+msgstr ""
+
+#: includes/product-post-type.php:13
+msgid "Edit Product"
+msgstr ""
+
+#: includes/product-post-type.php:14
+msgid "View Product"
+msgstr ""
+
+#: includes/product-post-type.php:15
+msgid "All Products"
+msgstr ""
+
+#: includes/product-post-type.php:16
+msgid "Search Products"
+msgstr ""
+
+#: includes/product-post-type.php:17
+msgid "Parent Products:"
+msgstr ""
+
+#: includes/product-post-type.php:18
+msgid "No Products found."
+msgstr ""
+
+#: includes/product-post-type.php:19
+msgid "No Products found in Trash."
+msgstr ""
+
+#: includes/product-post-type.php:20
+msgctxt "Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Product Cover Image"
+msgstr ""
+
+#: includes/product-post-type.php:21
+msgctxt "Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr ""
+
+#: includes/product-post-type.php:22
+msgctxt "Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr ""
+
+#: includes/product-post-type.php:23
+msgctxt "Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr ""
+
+#: includes/product-post-type.php:24
+msgctxt "The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4"
+msgid "Product archives"
+msgstr ""
+
+#: includes/product-post-type.php:25
+msgctxt "Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4"
+msgid "Insert into Product"
+msgstr ""
+
+#: includes/product-post-type.php:26
+msgctxt "Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Product"
+msgstr ""
+
+#: includes/product-post-type.php:27
+msgctxt "Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Products list"
+msgstr ""
+
+#: includes/product-post-type.php:28
+msgctxt "Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Products list navigation"
+msgstr ""
+
+#: includes/product-post-type.php:29
+msgctxt "Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Products list"
+msgstr ""
+
+#: includes/product-post-type.php:47
+msgid "A custom post type for products"
+msgstr ""
+
+#: build/blocks/account-edit-form/index.js:1
+#: build/blocks/fancy-header/index.js:1
+#: build/blocks/search-form/index.js:1
+#: src/blocks/account-edit-form/index.js:25
+#: src/blocks/fancy-header/index.js:18
+#: src/blocks/search-form/index.js:25
+msgid "Colors"
+msgstr ""
+
+#: build/blocks/account-edit-form/index.js:1
+#: build/blocks/search-form/index.js:1
+#: src/blocks/account-edit-form/index.js:28
+#: src/blocks/search-form/index.js:28
+msgid "Background Color"
+msgstr ""
+
+#: build/blocks/account-edit-form/index.js:1
+#: build/blocks/fancy-header/index.js:1
+#: build/blocks/search-form/index.js:1
+#: src/blocks/account-edit-form/index.js:33
+#: src/blocks/fancy-header/index.js:21
+#: src/blocks/search-form/index.js:33
+msgid "Text Color"
+msgstr ""
+
+#: build/blocks/auth-modal/index.js:1
+#: build/blocks/category-tree/index.js:1
+#: build/blocks/header-tools/index.js:1
+#: build/blocks/page-header/index.js:1
+#: build/blocks/user-modal/index.js:1
+#: src/blocks/auth-modal/index.js:19
+#: src/blocks/category-tree/index.js:19
+#: src/blocks/header-tools/index.js:19
+#: src/blocks/page-header/index.js:19
+#: src/blocks/user-modal/index.js:19
+msgid "General"
+msgstr ""
+
+#: build/blocks/auth-modal/index.js:1
+#: build/blocks/user-modal/index.js:1
+#: src/blocks/auth-modal/index.js:21
+#: src/blocks/user-modal/index.js:21
+msgid "Show Register"
+msgstr ""
+
+#: build/blocks/auth-modal/index.js:1
+#: build/blocks/user-modal/index.js:1
+#: src/blocks/auth-modal/index.js:24
+#: src/blocks/user-modal/index.js:24
+msgid "Showing registration form"
+msgstr ""
+
+#: build/blocks/auth-modal/index.js:1
+#: build/blocks/user-modal/index.js:1
+#: src/blocks/auth-modal/index.js:25
+#: src/blocks/user-modal/index.js:25
+msgid "Hiding registration form"
+msgstr ""
+
+#: build/blocks/auth-modal/index.js:1
+#: build/blocks/category-tree/index.js:1
+#: build/blocks/user-modal/index.js:1
+#: src/blocks/auth-modal/index.js:33
+#: src/blocks/category-tree/index.js:30
+#: src/blocks/user-modal/index.js:33
+msgid "This block is not previewable from the editor. View your site for a live demo."
+msgstr ""
+
+#: build/blocks/category-tree/index.js:1
+#: src/blocks/category-tree/index.js:21
+msgid "Depth"
+msgstr ""
+
+#: build/blocks/fancy-header/index.js:1
+#: src/blocks/fancy-header/index.js:26
+msgid "Underline Color"
+msgstr ""
+
+#: build/blocks/header-tools/index.js:1
+#: src/blocks/header-tools/index.js:24
+msgid "No"
+msgstr ""
+
+#: build/blocks/header-tools/index.js:1
+#: src/blocks/header-tools/index.js:25
+msgid "Yes"
+msgstr ""
+
+#: build/blocks/header-tools/index.js:1
+#: src/blocks/header-tools/index.js:30
+msgid "Show Login/Register Link"
+msgstr ""
+
+#: build/blocks/header-tools/index.js:1
+#: src/blocks/header-tools/index.js:33
+msgid "Showing Link"
+msgstr ""
+
+#: build/blocks/header-tools/index.js:1
+#: src/blocks/header-tools/index.js:34
+msgid "Hiding Link"
+msgstr ""
+
+#: build/blocks/page-header/index.js:1
+#: src/blocks/page-header/index.js:21
+msgid "Show Category"
+msgstr ""
+
+#: build/blocks/page-header/index.js:1
+#: src/blocks/page-header/index.js:26
+msgid "Category shown."
+msgstr ""
+
+#: build/blocks/page-header/index.js:1
+#: src/blocks/page-header/index.js:27
+msgid "Custom content shown."
+msgstr ""
+
+#: build/blocks/page-header/index.js:1
+#: src/blocks/page-header/index.js:36
+msgid "Some Category"
+msgstr ""
+
+#: build/blocks/page-header/index.js:1
+#: src/blocks/page-header/index.js:39
+msgid "Heading"
+msgstr ""
+
+#: build/blocks/product-list/index.js:1
+#: src/blocks/product-list/index.js:57
+msgid "Settings"
+msgstr ""
+
+#: build/blocks/product-list/index.js:1
+#: src/blocks/product-list/index.js:90
+msgid "Title"
+msgstr ""
+
+#: src/blocks/fancy-header/bkp.js:18
+msgid "Underline Colors"
+msgstr ""
+
+#: src/blocks/fancy-header/bkp.js:32
+msgid "Text Colors"
+msgstr ""
+
+#: src/blocks/fancy-header/bkp.js:46
+msgid "Link"
+msgstr ""
+
+#: build/blocks/account-edit-form/block.json
+#: src/blocks/account-edit-form/block.json
+msgctxt "block title"
+msgid "Account Edit Form"
+msgstr ""
+
+#: build/blocks/account-edit-form/block.json
+#: src/blocks/account-edit-form/block.json
+msgctxt "block description"
+msgid "Adds an account edit form"
+msgstr ""
+
+#: build/blocks/account-edit-form/block.json
+#: src/blocks/account-edit-form/block.json
+msgctxt "block keyword"
+msgid "account form"
+msgstr ""
+
+#: build/blocks/auth-modal/block.json
+#: src/blocks/auth-modal/block.json
+msgctxt "block title"
+msgid "Authentication Modal"
+msgstr ""
+
+#: build/blocks/auth-modal/block.json
+#: src/blocks/auth-modal/block.json
+msgctxt "block description"
+msgid "Adds an authentication modal"
+msgstr ""
+
+#: build/blocks/category-tree/block.json
+#: src/blocks/category-tree/block.json
+msgctxt "block title"
+msgid "Category Tree"
+msgstr ""
+
+#: build/blocks/category-tree/block.json
+#: src/blocks/category-tree/block.json
+msgctxt "block description"
+msgid "Adds a category-subcategory tree"
+msgstr ""
+
+#: build/blocks/contact-form/block.json
+#: src/blocks/contact-form/block.json
+msgctxt "block title"
+msgid "Contact form"
+msgstr ""
+
+#: build/blocks/contact-form/block.json
+#: src/blocks/contact-form/block.json
+msgctxt "block description"
+msgid "Adds a contact form"
+msgstr ""
+
+#: build/blocks/fancy-header/block.json
+#: src/blocks/fancy-header/block.json
+msgctxt "block title"
+msgid "Fancy Header"
+msgstr ""
+
+#: build/blocks/fancy-header/block.json
+#: src/blocks/fancy-header/block.json
+msgctxt "block description"
+msgid "Adds a header with a hover effect."
+msgstr ""
+
+#: build/blocks/fancy-header/block.json
+#: src/blocks/fancy-header/block.json
+msgctxt "block keyword"
+msgid "header"
+msgstr ""
+
+#: build/blocks/fancy-header/block.json
+#: src/blocks/fancy-header/block.json
+msgctxt "block keyword"
+msgid "underline"
+msgstr ""
+
+#: build/blocks/fancy-header/block.json
+#: src/blocks/fancy-header/block.json
+msgctxt "block keyword"
+msgid "hover"
+msgstr ""
+
+#: build/blocks/favorite-posts/block.json
+#: src/blocks/favorite-posts/block.json
+msgctxt "block title"
+msgid "Favorite Posts"
+msgstr ""
+
+#: build/blocks/favorite-posts/block.json
+#: src/blocks/favorite-posts/block.json
+msgctxt "block description"
+msgid "Adds a block that displays users favorites"
+msgstr ""
+
+#: build/blocks/header-tools/block.json
+#: src/blocks/header-tools/block.json
+msgctxt "block title"
+msgid "Header Tools"
+msgstr ""
+
+#: build/blocks/header-tools/block.json
+#: src/blocks/header-tools/block.json
+msgctxt "block description"
+msgid "Adds a header toolbar that contains an authentication link"
+msgstr ""
+
+#: build/blocks/page-header/block.json
+#: src/blocks/page-header/block.json
+msgctxt "block title"
+msgid "Page Header"
+msgstr ""
+
+#: build/blocks/page-header/block.json
+#: src/blocks/page-header/block.json
+msgctxt "block description"
+msgid "Adds a page header"
+msgstr ""
+
+#: build/blocks/product-list/block.json
+#: src/blocks/product-list/block.json
+msgctxt "block title"
+msgid "Product list"
+msgstr ""
+
+#: build/blocks/product-list/block.json
+#: src/blocks/product-list/block.json
+msgctxt "block description"
+msgid "Adds a list of products of certain category"
+msgstr ""
+
+#: build/blocks/search-form/block.json
+#: src/blocks/search-form/block.json
+msgctxt "block title"
+msgid "Search Form"
+msgstr ""
+
+#: build/blocks/search-form/block.json
+#: src/blocks/search-form/block.json
+msgctxt "block description"
+msgid "Adds a search form"
+msgstr ""
+
+#: build/blocks/search-form/block.json
+#: src/blocks/search-form/block.json
+msgctxt "block keyword"
+msgid "search form"
+msgstr ""
+
+#: build/blocks/single-post-details/block.json
+#: src/blocks/single-post-details/block.json
+msgctxt "block title"
+msgid "Single Post Details"
+msgstr ""
+
+#: build/blocks/single-post-details/block.json
+#: src/blocks/single-post-details/block.json
+msgctxt "block description"
+msgid "Adds a favorite button and a price"
+msgstr ""
+
+#: build/blocks/user-modal/block.json
+#: src/blocks/user-modal/block.json
+msgctxt "block title"
+msgid "User Modal"
+msgstr ""
+
+#: build/blocks/user-modal/block.json
+#: src/blocks/user-modal/block.json
+msgctxt "block description"
+msgid "Adds an account modal"
+msgstr ""

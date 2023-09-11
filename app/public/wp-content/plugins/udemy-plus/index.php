@@ -38,4 +38,5 @@ add_action('wp_enqueue_scripts', 'up_enqueue_scripts');
 //add_action('wp_enqueue_scripts', 'kp_enqueue_image_scr');
 add_action('init', 'pk_product_post_type');
 add_action('transition_post_status', 'pk_publish_product_meta',10,3);
+add_action('init', 'up_load_php_translations');
 

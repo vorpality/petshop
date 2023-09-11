@@ -4,9 +4,11 @@ function pk_single_post_details_cb($atts) {
   $userID = get_current_user_id();
   $postID = get_the_ID();
   $isFavorite = false;
-  $userFavorites = get_user_meta($userID, 'favorites', false);
-  if(count($userFavorites) > 0){
-    $isFavorite = (in_array(strval($postID), $userFavorites));
+  if($userID != 0){
+    $userFavorites = get_user_meta($userID, 'favorites', false);
+    if(count($userFavorites) > 0){
+      $isFavorite = (in_array(strval($postID), $userFavorites));
+    }
   }
 
   ob_start();

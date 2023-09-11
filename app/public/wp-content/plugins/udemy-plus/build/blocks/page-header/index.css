@@ -133,6 +133,16 @@
   }
 }
 
+@media (max-width:640px){
+  .wp-block-udemy-plus-page-header .posts {
+  display:grid;
+  max-width:  90%;
+  margin:auto;
+  grid-template-columns: repeat(1, minmax(220px, 1fr));
+  grid-gap: 16px;
+}
+}
+
 
 
 

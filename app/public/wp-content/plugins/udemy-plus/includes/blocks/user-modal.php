@@ -1,6 +1,6 @@
 <?php
 
-function pk_user_modal_render_cb($atts) {
+function ept_user_modal_render_cb($atts) {
   if(!is_user_logged_in()) {
     return '';
   }
@@ -8,7 +8,7 @@ function pk_user_modal_render_cb($atts) {
   ob_start();
   ?>
   
-  <div class="wp-block-udemy-plus-user-modal">
+  <div class="wp-block-e-potis-user-modal">
     <div class="modal-container">
       <div class="modal-overlay"></div>
 
@@ -18,21 +18,21 @@ function pk_user_modal_render_cb($atts) {
         <button class="modal-btn-close" type="button">
           <i class="bi bi-x"></i>
         </button>
-        <!-- Tabs -->
+       
         <ul class="elements">
-          <!-- Login Tab -->
+          
           <li>
-            <a href="/my-account" class="active-tab">
+            <a href="/my-account">
               <button class = "button-element"> My account</button>
             </a>
           </li>
           <li>
-            <a href="/favorites" class="active-tab">
+            <a href="/favorites">
               <button class = "button-element"> Favorites</button>
             </a>
           </li>
           <li>
-            <a href="/" class="active-tab">
+            <a href="/" class>
               <button class = "button-element"> Log out</button>
             </a>
           </li>

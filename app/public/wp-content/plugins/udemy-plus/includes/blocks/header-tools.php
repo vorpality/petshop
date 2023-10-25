@@ -1,13 +1,13 @@
 <?php
 
-function up_header_tools_render_cb($atts) {
+function ept_header_tools_render_cb($atts) {
     $user = wp_get_current_user();
     $name = $user->exists() ? $user->user_login : 'Sign in';
     $openClass = $user->exists() ? 'open-user-modal' : 'open-auth-modal';
 
     ob_start();
     ?>
-    <div class="wp-block-udemy-plus-header-tools">
+    <div class="wp-block-e-potis-header-tools">
     <?php
     
     if($atts['showAuth']){    

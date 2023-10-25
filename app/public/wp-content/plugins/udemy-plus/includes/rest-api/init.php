@@ -19,4 +19,12 @@ function up_rest_api_init(){
         'callback' => 'up_rest_api_add_favorite_handler',
         'permission_callback' => 'is_user_logged_in'
     ]);
+
+    register_rest_route('up/v1', '/forgot', [
+        'methods' => WP_REST_SERVER::EDITABLE,
+        'callback' => 'up_rest_api_forgot_handler',
+        'permission_callback' => '__return_true'
+    ]);
+
+    
 }

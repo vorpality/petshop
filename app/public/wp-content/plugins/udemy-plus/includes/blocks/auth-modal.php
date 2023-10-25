@@ -1,15 +1,15 @@
 <?php
 
-function up_auth_modal_render_cb($atts) {
+function ept_auth_modal_render_cb($atts) {
   if(is_user_logged_in()) {
     return '';
   }
 
   ob_start();
   ?>
-  <div class="wp-block-udemy-plus-auth-modal">
-    <div class="modal-container">
-      <div class="modal-overlay"></div>
+  <div class="wp-block-e-potis-auth-modal">
+    <div class="modal-container"> 
+      <div class="modal-overlay"></div> 
 
       <span class="modal-trick">&#8203;</span>
 
@@ -50,14 +50,16 @@ function up_auth_modal_render_cb($atts) {
 
               <label>Password</label>
               <input type="password" id="si-password" />
-
+              <div id="forgot-link">
+                <a href="www.petkarellas.gr/forgot-password"> Forgot your password? </a>
+              </div>
               <button type="submit">Sign in</button>
             </fieldset>
           </form>
           <?php
 
           if($atts['showRegister']) {
-            ?>
+            ?> 
             <!-- Register Form -->
             <form id="signup-tab">
               <div id="signup-status"></div>

@@ -1,11 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
   "apiVersion": 2,
-  "name": "udemy-plus/user-modal",
+  "name": "e-potis/user-modal",
   "title": "User Modal",
   "category": "text",
   "description": "Adds an account modal",
-  "textdomain": "udemy-plus",
+  "textdomain": "e-potis",
   "attributes": {},
   "editorScript": "file:./index.js",
   "style": "file:./index.css",

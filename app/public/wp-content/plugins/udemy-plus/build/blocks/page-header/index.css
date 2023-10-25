@@ -12,6 +12,12 @@
   .wp-block-udemy-plus-page-header .inner-page-header {
     width: 100%;
     padding-bottom:2rem;
+    text-align:center;
+  }
+  @media (max-width: 640px){
+    .wp-block-udemy-plus-page-header .inner-page-header {
+      text-align:center;
+    }
   }
   @media (min-width: 640px) {
     .wp-block-udemy-plus-page-header .inner-page-header {

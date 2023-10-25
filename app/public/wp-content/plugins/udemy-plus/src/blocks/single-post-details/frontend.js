@@ -2,7 +2,6 @@ import {render, useState, useEffect} from '@wordpress/element'
 import apiFetch from '@wordpress/api-fetch'
 
 function FavoritePost(props){
-  console.log(props)
   const [permission] = useState(props.loggedIn)
   const [favorite, setFavorite] = useState(props.isFavorite)
   const className = favorite ? "is-favorite" : ""

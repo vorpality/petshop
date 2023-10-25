@@ -5,7 +5,7 @@ import { __ } from '@wordpress/i18n';
 import icons from '../../icons.js'
 import './main.css'
 
-registerBlockType('udemy-plus/user-modal', {
+registerBlockType('e-potis/user-modal', {
   icon: {
     src: icons.primary
   },
@@ -16,13 +16,13 @@ registerBlockType('udemy-plus/user-modal', {
     return (
       <>
         <InspectorControls>
-          <PanelBody title={ __('General', 'udemy-plus') }>
+          <PanelBody title={ __('General', 'e-potis') }>
             <ToggleControl 
-            label = {__('Show Register', 'udemy-plus')}
+            label = {__('Show Register', 'e-potis')}
             help = {
                 showRegister ? 
-                __('Showing registration form', 'udemy-plus') : 
-                __('Hiding registration form', 'udemy-plus')
+                __('Showing registration form', 'e-potis') : 
+                __('Hiding registration form', 'e-potis')
             }
             checked ={showRegister}
             onChange = { showRegister => setAttributes({showRegister})}
@@ -30,7 +30,7 @@ registerBlockType('udemy-plus/user-modal', {
           </PanelBody>
         </InspectorControls>
         <div { ...blockProps }>
-          {__('This block is not previewable from the editor. View your site for a live demo.', 'udemy-plus')}
+          {__('This block is not previewable from the editor. View your site for a live demo.', 'e-potis')}
         </div>
       </>
     );

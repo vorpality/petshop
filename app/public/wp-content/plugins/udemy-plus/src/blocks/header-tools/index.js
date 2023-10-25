@@ -5,7 +5,7 @@ import { __ } from '@wordpress/i18n';
 import icons from '../../icons.js'
 import './main.css'
 
-registerBlockType('udemy-plus/header-tools', {
+registerBlockType('e-potis/header-tools', {
   icon: {
     src: icons.primary
   },
@@ -16,22 +16,22 @@ registerBlockType('udemy-plus/header-tools', {
     return (
       <>
         <InspectorControls>
-          <PanelBody title={ __('General', 'udemy-plus') }>
+          <PanelBody title={ __('General', 'e-potis') }>
             <SelectControl 
                 label = {__('Show Login/Register link', 'udemy_plus')}
                 value = {showAuth}
                 options={[
-                    { label: __('No', 'udemy-plus'), value:false},
-                    { label: __('Yes', 'udemy-plus'), value:true}
+                    { label: __('No', 'e-potis'), value:false},
+                    { label: __('Yes', 'e-potis'), value:true}
                 ]}
                 onChange={newVal => setAttributes({ showAuth: (newVal === "true")})}
             />
             <CheckboxControl
-                label={__('Show Login/Register Link', 'udemy-plus')} 
+                label={__('Show Login/Register Link', 'e-potis')} 
                 help={
                     showAuth ?
-                    __('Showing Link', 'udemy-plus') :
-                    __('Hiding Link', 'udemy-plus')
+                    __('Showing Link', 'e-potis') :
+                    __('Hiding Link', 'e-potis')
                 }
                 checked={showAuth}
                 onChange={showAuth => setAttributes({showAuth})}

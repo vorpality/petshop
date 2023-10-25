@@ -35,8 +35,10 @@ register_activation_hook(__FILE__, 'pk_activate_plugin');
 add_action('init','up_register_block');
 add_action('rest_api_init', 'up_rest_api_init');
 add_action('wp_enqueue_scripts', 'up_enqueue_scripts');
-//add_action('wp_enqueue_scripts', 'kp_enqueue_image_scr');
 add_action('init', 'pk_product_post_type');
 add_action('transition_post_status', 'pk_publish_product_meta',10,3);
 add_action('init', 'up_load_php_translations');
+add_filter('wp_mail_from', 'new_mail_from');
+add_filter('wp_mail_from_name', 'new_mail_from_name');
+add_action('login_form_resetpass', 'ept_pw_reset_redirect');
 

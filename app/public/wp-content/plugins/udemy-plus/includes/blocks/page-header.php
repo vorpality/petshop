@@ -27,7 +27,7 @@ function up_page_header_render_cb($atts) {
 
   <div class="wp-block-udemy-plus-page-header">
     <div class="inner-page-header">
-      <h1><?php echo $heading; ?></h1>
+      <h1><?php echo $heading; ?></h1> 
     </div> 
     <div class="posts">
    <?php 
@@ -60,7 +60,7 @@ function up_page_header_render_cb($atts) {
                 data-is-favorite="<?php echo $isFavorite; ?>"
                 >
                 <button> 
-                <i class="bi bi-heart favorite"></i>
+                <i class="bi bi-heart-fill favorite"></i>
                 </button>
               </div>
             </div>

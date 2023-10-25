@@ -6,6 +6,7 @@ function FavoritePost(props){
   const [permission] = useState(props.loggedIn)
   const [favorite, setFavorite] = useState(props.isFavorite)
   const className = favorite ? "is-favorite" : ""
+  const fill = favorite ? "-fill" : ""
   return (    
     <button class={className}
       onClick = {async event => {
@@ -31,7 +32,7 @@ function FavoritePost(props){
         }
       }}>
     
- <i class="bi bi-heart favorite"></i>
+ <i class={`bi bi-heart${fill} favorite`}></i>
  </button>
   )
 }

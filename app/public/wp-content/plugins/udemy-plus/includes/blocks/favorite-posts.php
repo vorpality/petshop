@@ -6,7 +6,7 @@ function pk_favorite_posts_cb($atts) {
   $favorites = array_map('intval', $favoritePostMetaArray);
   ob_start();
   ?>
-<div class="wp-block-udemy-plus-favorite-posts">
+<div class="wp-block-udemy-plus-favorite-posts"> 
   <div class = "inner-page-header">
     <h1> Favorites </h1>
   </div>

@@ -14,7 +14,7 @@ registerBlockType(block.name, {
         <>
             
             <InspectorControls>
-                <PanelColorSettings
+                <PanelColorSettings 
                     title={__('Colors', 'udemy-plus')}
                     colorSettings={[
                         {

@@ -109,6 +109,7 @@ function FavoritePost(props) {
   const [permission] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)(props.loggedIn);
   const [favorite, setFavorite] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)(props.isFavorite);
   const className = favorite ? "is-favorite" : "";
+  const fill = favorite ? "-fill" : "";
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {
     class: className,
     onClick: async event => {
@@ -131,7 +132,7 @@ function FavoritePost(props) {
       }
     }
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
-    class: "bi bi-heart favorite"
+    class: `bi bi-heart${fill} favorite`
   }));
 }
 document.addEventListener('DOMContentLoaded', () => {

@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "udemy-plus/price-tag",
+    "title" : "Product Price",
+    "category" : "text",
+    "icon" : "star-filled",
+    "description": "Adds a price for custom type product post",
+    "keywords": ["price", "product"],
+    "version":"1",
+    "textdomain":"udemy-plus",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "content": {
+            "type" : "number",
+            "default" : 0
+        }
+    },
+    "style":"file:./index.css"
+}

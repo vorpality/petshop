@@ -3,7 +3,8 @@
 function up_enqueue_scripts(){
     $authURLs = json_encode([
         'signup' => esc_url_raw(rest_url('up/v1/signup')),
-        'signin' => esc_url_raw(rest_url('up/v1/signin'))
+        'signin' => esc_url_raw(rest_url('up/v1/signin')),
+        'forgot' => esc_url_raw(rest_url('up/v1/forgot'))
     ]);
 
     wp_add_inline_script(
@@ -12,7 +13,7 @@ function up_enqueue_scripts(){
         'before' //after
     );
 
-    wp_enqueue_media();
+ 
     
 }
 

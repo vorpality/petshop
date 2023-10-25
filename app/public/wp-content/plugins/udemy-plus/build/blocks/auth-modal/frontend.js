@@ -5,7 +5,7 @@ var __webpack_exports__ = {};
   \*******************************************/
 document.addEventListener('DOMContentLoaded', () => {
   const openModalBtn = document.querySelectorAll('.open-auth-modal');
-  const modalEl = document.querySelector('.wp-block-udemy-plus-auth-modal');
+  const modalEl = document.querySelector('.wp-block-e-potis-auth-modal');
   const modalCloseEl = document.querySelectorAll('.modal-overlay, .modal-btn-close');
   openModalBtn.forEach(el => {
     el.addEventListener('click', event => {
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const signupFieldset = signupForm.querySelector('fieldset');
     signupFieldset.setAttribute('disabled', true);
     const signupStatus = signupForm.querySelector('#signup-status');
-    signupStatus.innerHTML = `
+    signupStatus.innerHTML = ` 
             <div class ="modal-status modal-status-info">
                 Please wait! We are creating your account.
             </div>
